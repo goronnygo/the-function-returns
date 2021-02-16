@@ -1,8 +1,25 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = "Hello";
+let sum = 0;
+let prod = 0;
 
+function greet(p){
+  greeting = greeting + " " + p ;
+}
 
+function sumOfTwo(numOne , numTwo){
+  sum = numOne + numTwo;
+}
+
+function multiply(numThree, numFour, numFive){
+prod = numThree * numFour * numFive;
+}
+
+function sayHi(param){
+  
+}
 
 
 /*********************************************************************************************************************
