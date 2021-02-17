@@ -2,6 +2,7 @@
  * YOUR CODE HERE *
  ******************/
 let greeting = "Hello";
+let greeting1 = "Hello ";
 let sum = 0;
 let prod = 0;
 
@@ -17,10 +18,24 @@ function multiply(numThree, numFour, numFive){
 prod = numThree * numFour * numFive;
 }
 
-function sayHi(param){
-  
+function sayHi(hi1){
+  output = greeting1 + hi1 + "!";
+    return output;
 }
 
+function returnWhatISay (say1) {
+  return say1;
+}
+
+function divide (num1, num2) {
+  output = num1 / num2;
+    return output;
+}
+
+function remainder (num3, num4) {
+  output = num3 % num4;
+    return output;
+}
 
 /*********************************************************************************************************************
 
